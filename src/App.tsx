@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import platformClient from 'purecloud-platform-client-v2';
+
+console.log('platformClient', platformClient);
+console.log('platformClient.ApiClient.instance', platformClient.ApiClient.instance);
+
 
 function App() {
   return (
