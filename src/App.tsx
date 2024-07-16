@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import platformClient from 'purecloud-platform-client-v2';
+const platformClient = require('purecloud-platform-client-v2/dist/node/purecloud-platform-client-v2.js');
+
 
 console.log('platformClient', platformClient);
 
